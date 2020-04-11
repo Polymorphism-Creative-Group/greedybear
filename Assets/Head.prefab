@@ -48,6 +48,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -59,6 +60,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -99,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 1.1130434, y: 1.1130434}
     newSize: {x: 256, y: 256}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -142,4 +144,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tailPrefab: {fileID: 6492671893042760385, guid: 0f6617bdbefbba94c887dc229deb7166,
+    type: 3}
+  canvasPrefab: {fileID: 1139363385859798253, guid: 3b6956e22544b7544b7382b5d95d884f,
+    type: 3}
+  eatCakeAudioEffect: {fileID: 6402734464991776124, guid: 569803a4811b40c49a019487cbbb6d69,
+    type: 3}
+  gameOverAudioEffect: {fileID: 5116426242389044853, guid: 3379c499aa6d53349aa46a3a56051e81,
     type: 3}

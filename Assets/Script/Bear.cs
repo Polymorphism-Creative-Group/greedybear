@@ -86,7 +86,8 @@ bool ate = false;
 
             // Remove the Food
             Destroy (coll.gameObject);
-            ScoreCode.Score = ScoreCode.Score + 1;
+            //ScoreCode.Score += 1; 
+            //ScoreCode.Score = ScoreCode.Score + 1;
             Instantiate (eatCakeAudioEffect);
         }
         // Collided with Tail or Border
@@ -99,6 +100,7 @@ bool ate = false;
                 Destroy (t.gameObject);
             }
             tail.Clear ();
+            
             transform.position = new Vector2 (0, 0);
             Instantiate (gameOverAudioEffect);
             //ScoreCode.Score = 0;
